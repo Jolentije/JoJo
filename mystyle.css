@@ -2,7 +2,7 @@ body {
 	background-color: hsl(212, 45%, 89%);
 	font-family: Outfit;
 }
-h2 {
+h1 {
 	color: hsl(218, 44%, 22%);
 	font-weight: 700;
 }
@@ -15,7 +15,7 @@ img {
 	border-radius: 25px;
 	border: 30px solid white;
 }
-.container{
+.main{
 	 margin: 25px;
 	 text-align: center;
     position: relative; 
