@@ -1,32 +1,50 @@
 body {
-	background-color: hsl(212, 45%, 89%);
-	font-family: Outfit;
+	background-color: hsl(30, 38%, 92%);
 }
 h1 {
-	color: hsl(218, 44%, 22%);
+	color: hsl(158, 36%, 37%);
+}
+h2 {
+	font-family: Fraunces; 
 	font-weight: 700;
+	color: hsl(212, 21%, 14%);
 }
-p {
-	font-size: 15px;
-	font-weight: 400;
-	color: hsl(220, 15%, 55%);
+h5 {
+	font-family: Montserrat;
+	font-weight: 500;
+	color: hsl(228, 12%, 48%);
 }
-img {
-	border-radius: 25px;
-	border: 30px solid white;
+h6 {
+	font-family: Montserrat;
+	font-weight: 500;
+	color: hsl(228, 12%, 48%);
+	text-decoration: line-through;
+	display: inline block;
 }
-.main{
-	 margin: 25px;
-	 text-align: center;
-    position: relative; 
+P {
+	font-size: 14px;
+	color: hsl(228, 12%, 48%);
 }
-.text {
-    position: absolute;
-    bottom: 60px;
-    left: 30px;
+.half {
+	background-color: hsl(0, 0%, 100%);
+	width: 220px;
+	display: inline block;
+	padding: 10px;
 }
-.text2 {
-	position: absolute;
-    bottom: 60px;
-    left: 30px;
+.button {
+	background-color: hsl(158, 36%, 37%);
+	color: hsl(0, 0%, 100%);
+	padding: 10px 50px;
+	border: none;
+	border-radius: 5px;
+}
+.button:hover {
+  color: hsl(43, 74%, 49%);
+}
+.flex-container {
+  padding: 130px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
 }
